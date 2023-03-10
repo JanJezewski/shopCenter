@@ -117,9 +117,15 @@
       <a href="#"> • </a>
       
     </div>
-    
+   
   </div>
- 
   <hr class="outset">
- </body>
+  <footer class="page-footer mt-5">
+    <div class="footer-copyright">
+      <div class="container">
+        {{ config?.date | date: 'yyyy' }} {{ config?.footer }}
+      </div>
+    </div>
+  </footer>
+</body>
 
