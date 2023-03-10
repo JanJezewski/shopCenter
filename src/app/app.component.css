@@ -16,10 +16,6 @@ div {
   #Logo{
     color: rgb(80, 76, 76);
     position: relative;
-        
-       
-    
-    
     text-shadow: 3px 3px #00000049;
     font-family: fantasy;
     font-size: 70px;
@@ -28,8 +24,11 @@ div {
   #sidebar {
    
     background-color: #dae3e9;
-    color: #ffffff;
-    padding: 200px 185px;
+    color: #fdfdfd;
+    font-size: 40px;
+    font-family: fantasy;
+    text-shadow: 3px 3px #00000049;
+    padding: 150px 185px;
     width: 1500px;
     bottom: 0;
     position: relative;
