@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
 body {
-    background-color: rgb(252, 252, 252);
+    background: #f1f1f1;
     line-height: 26px;
   }
  
@@ -21,19 +25,7 @@ div {
     font-size: 70px;
 
   }
-  #sidebar {
-   
-    background-color: #dae3e9;
-    color: #fdfdfd;
-    font-size: 40px;
-    font-family: fantasy;
-    text-shadow: 3px 3px #00000049;
-    padding: 150px 185px;
-    width: 1500px;
-    bottom: 0;
-    position: relative;
-    border-radius: 10px;  
-  } 
+
 
 
   .navbar {
@@ -161,6 +153,34 @@ div {
       clear: both;
     }
     
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-image: linear-gradient(to right, rgb(248, 197, 88) ,rgb(151, 140, 140)); 
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    }
     /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
       .column {
@@ -168,7 +188,21 @@ div {
         height: auto;
       }
     }
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
 
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
       .topnav .search-container {
         float: right;
         
@@ -271,6 +305,13 @@ div {
        
       }
      
+      
+
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
      
       .topnav .search-container button {
@@ -305,7 +346,15 @@ div {
           border: 10px solid #ccc;  
         }
    
-      }
-
+      
+    
+        /* Footer */
+      .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    }
    
 

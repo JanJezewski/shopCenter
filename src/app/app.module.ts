@@ -1,21 +1,13 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
-import { TopnavComponent } from './topnav/topnav.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TopnavComponent,
-    NavbarComponent,
-    SidebarComponent
+    AppComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
