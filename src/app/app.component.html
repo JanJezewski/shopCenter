@@ -64,18 +64,16 @@
       <div class="card">
         
         
-        <img class="fakeimg" style="height:400px;" src="assets/zdjęcia na strone/but_2.png" alt="Tekst alternatywny">>
-        <h2>Dobre buty to podstawa</h2>
-        <p> Zapewne doskonale zdajesz sobie sprawę, jak ważne są dobre buty. 
-          W końcu to one wpływają na Twoje samopoczucie i wygodę, nie tylko podczas długich spacerów czy wycieczek, ale również w codziennym życiu. 
-          Dlatego też, chcielibyśmy zaproponować Ci naszą najnowszą kolekcję butów, które pozwolą Ci poczuć się wyjątkowo i stylowo, bez rezygnacji z wygody.</p>
+        <img class="fakeimg" style="height:400px;" src="assets/zdjęcia na strone/but_2.png" alt="Tekst alternatywny">
+        <h2 (click)="showShoes()">Dobre buty to podstawa ...</h2>
+        <p> {{displayShoe}} </p>
       </div>
       <div class="card">
         <h2></h2>
        
         <img class="fakeimg" style="height:400px;" src="assets/zdjęcia na strone/aloes.png" alt="Tekst alternatywny"> 
-        <p></p>
-        <p></p>
+        <h2  target="_blank" (click)="showAloes()">Czy wiedziałeś że...</h2>
+        <p>{{displayAloes}}</p>
       </div>
     </div>
 
@@ -87,10 +85,12 @@
       </div>
       <div class="card">
         <h2>POLECAMY</h2>
-        <img class="fakeimg" src="assets/zdjęcia na strone/gel1.png">
-        <img class="fakeimg" src="assets/zdjęcia na strone/led.png">
-        <img class="fakeimg" src="assets/zdjęcia na strone/gel.png">
-        
+        <li><img class="fakeimg" src="assets/zdjęcia na strone/gel1.png"(click)="showGel()"></li>
+        <p>{{displayprize}}</p>
+        <li><img class="fakeimg" src="assets/zdjęcia na strone/led.png"(click)="showLed()"></li>
+        <p>{{displayprize2}}</p>
+        <li><img class="fakeimg" src="assets/zdjęcia na strone/gel.png"(click)="showGel2()"></li>
+        <p>{{displayprize3}}</p>
         
       </div>
       <div class="card">
