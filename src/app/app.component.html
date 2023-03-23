@@ -1,6 +1,9 @@
 <head>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -65,14 +68,14 @@
         
         
         <img class="fakeimg" style="height:400px;" src="assets/zdjęcia na strone/but_2.png" alt="Tekst alternatywny">
-        <h2 (click)="showShoes()">Dobre buty to podstawa ...</h2>
+       <h2> <button (click)="showShoes()">Dobre buty to podstawa ...</button> </h2>
         <p> {{displayShoe}} </p>
       </div>
       <div class="card">
-        <h2></h2>
+        
        
         <img class="fakeimg" style="height:400px;" src="assets/zdjęcia na strone/aloes.png" alt="Tekst alternatywny"> 
-        <h2  target="_blank" (click)="showAloes()">Czy wiedziałeś że...</h2>
+        <h2><button (click)="showAloes()">Czy wiedziałeś że...</button></h2>
         <p>{{displayAloes}}</p>
       </div>
     </div>
@@ -95,7 +98,8 @@
       </div>
       <div class="card">
         <h3>Sprawdzi nas na Socialach!</h3>
-        <p></p>
+        <a href="#" class="fe fe-facebook"></a>
+        <a href="#" class="fe fe-linkedin"></a>
       </div>
     </div>
   </div>
