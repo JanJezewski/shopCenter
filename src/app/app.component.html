@@ -7,25 +7,9 @@
 </head>
 
 <body>
-  <h1 id = "Logo">Shopcenter</h1>
-  <hr class="outset">
   
-  <div class="topnav">
-    
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Czego szukasz?" name="search">
-        
-        <button type="submit"><i class ="material-icons">search</i></button>
 
-      </form>
-    </div>
-    
-    <a href="#heart" class = "material-icons" >favorite</a>
-    <a href="#heart" class = "material-icons" >shopping_cart</a>
-    <a href="#heart" class = "material-icons" >storefront</a>
-  </div>
-  
+  <app-logo></app-logo>
 
   <div class="navbar">
     <div class="dropdown">
@@ -69,7 +53,8 @@
         
         <img class="fakeimg" style="height:400px;" src="assets/zdjęcia na strone/but_2.png" alt="Tekst alternatywny">
        <h2> <button (click)="showShoes()">Dobre buty to podstawa ...</button> </h2>
-        <p> {{displayShoe}} </p>
+        
+       <p> {{displayShoe}} </p>
       </div>
       <div class="card">
         
@@ -98,15 +83,16 @@
       </div>
       <div class="card">
         <h3>Sprawdzi nas na Socialach!</h3>
-        <a href="#" class="fe fe-facebook"></a>
-        <a href="#" class="fe fe-linkedin"></a>
+       
       </div>
     </div>
   </div>
   
+  
   <footer class="page-footer mt-5">
     <div class="footer-copyright">
       <div class="container">
+
         {{ config?.date | date: 'yyyy' }} {{ config?.footer }}
       </div>
     </div>

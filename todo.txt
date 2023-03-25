@@ -84,3 +84,14 @@
       </div>
     </div>
   </footer>
+
+        <a href="#" class="fe fe-facebook"></a>
+        <a href="#" class="fe fe-linkedin"></a>
+
+        <input [value]="inputValue" name="search"/>
+
+          <a href="#heart" class = "material-icons" >favorite</a>
+  
+          <a href="#heart" class = "material-icons" >shopping_cart</a>
+          
+          <a href="#heart" class = "material-icons" >storefront</a>
