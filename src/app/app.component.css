@@ -44,40 +44,7 @@ div {
 
   
     
-    .chair {
-      position: relative;
-      width: 370px;
-      height: 350px;
-      top: auto;
-      right: 110px;
-      
-      border-radius: 10px;
-    }
-    .chair2 {
-      position: relative;
-      width: 370px;
-      height: 350px;
-      top: 5px;
-      right: 40px;
-
-      border-radius: 10px;
-    }
-    .chair3 {
-      position: relative;
-      width: 370px;
-      height: 350px;
-      top: 5px;
-      left: 30px;
-      border-radius: 10px;
-    }
-    .chair4 {
-      position: relative;
-      width: 370px;
-      height: 350px;
-      top: 5px;
-      left: 100px;
-      border-radius: 10px;
-    }
+    
   
     
   /* Create two unequal columns that floats next to each other */
@@ -163,44 +130,13 @@ div {
         margin: 4px 2px;
         cursor: pointer;
       }
-
-
-      .pagination2 a {
-        color: black;
-        position: relative;
-        top: 160px;
-        left: 700px;
-        padding: 8px 16px;
-        text-decoration: none;
-        transition: background-color .3s;
-      }
-      
-      .pagination2 a.active {
-        
-        color: rgb(247, 135, 8);
-      }
-      
-      .pagination2 a:hover:not(.active) {
-        background-color: #d69393;
-        border-radius: 10px;
-      }
-
-      
-     
-      
-
       .row::after {
         content: "";
         display: table;
         clear: both;
       }
 
-     
-      
-   
-      
-    
-        /* Footer */
+      /* Footer */
       .footer {
       padding: 20px;
       text-align: center;

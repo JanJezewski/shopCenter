@@ -8,25 +8,14 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
-  displayprize = '';
-  displayprize2 = '';
-  displayprize3 = '';
+ 
   displayAloes = '';
   displayShoe = '';
 
   showOkazje() {
 throw new Error('Method not implemented.');
 }
-showGel(){
-  this.displayprize = '21.37zł';
-}
-  
-showLed(){
-  this.displayprize2 = '2.37zł';
-}
-showGel2(){
-  this.displayprize3 = '11.37zł';
-}
+
 showAloes(){
   this.displayAloes = 'Ciekawostką o aloesie jest to, że jest to roślina o wielu zastosowaniach leczniczych i kosmetycznych, która była używana przez wiele kultur na całym świecie od tysięcy lat. Jednakże, aby zwiększyć swoją odporność na suche i trudne warunki klimatyczne, aloes jest w stanie "zamknąć" swoje pory, utrzymując wodę w liściach, co skutkuje ich charakterystycznym wyglądem i twardej, grubej skórze.';
 }
