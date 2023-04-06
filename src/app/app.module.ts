@@ -8,6 +8,10 @@ import { OkazjeComponent } from './okazje/okazje.component';
 import { ActiveButtonComponent } from './active-button/active-button.component';
 import { HitComponent } from './hit/hit.component';
 import { PolecaneComponent } from './polecane/polecane.component';
+import { ButyComponent } from './buty/buty.component';
+import { RolinyComponent } from './roliny/roliny.component';
+import { PaginationComponent } from './pagination/pagination.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -18,7 +22,12 @@ import { PolecaneComponent } from './polecane/polecane.component';
   OkazjeComponent,
   ActiveButtonComponent,
   HitComponent,
-  PolecaneComponent
+  PolecaneComponent,
+  ButyComponent,
+  RolinyComponent,
+  PaginationComponent,
+  CardComponent,
+
   
 ],
   imports: [BrowserModule, FormsModule],

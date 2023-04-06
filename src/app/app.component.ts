@@ -9,19 +9,14 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
  
-  displayAloes = '';
-  displayShoe = '';
+
 
   showOkazje() {
 throw new Error('Method not implemented.');
 }
 
-showAloes(){
-  this.displayAloes = 'Ciekawostką o aloesie jest to, że jest to roślina o wielu zastosowaniach leczniczych i kosmetycznych, która była używana przez wiele kultur na całym świecie od tysięcy lat. Jednakże, aby zwiększyć swoją odporność na suche i trudne warunki klimatyczne, aloes jest w stanie "zamknąć" swoje pory, utrzymując wodę w liściach, co skutkuje ich charakterystycznym wyglądem i twardej, grubej skórze.';
-}
-showShoes(){
-  this.displayShoe = 'Zapewne doskonale zdajesz sobie sprawę, jak ważne są dobre buty. W końcu to one wpływają na Twoje samopoczucie i wygodę, nie tylko podczas długich spacerów czy wycieczek, ale również w codziennym życiu. Dlatego też, chcielibyśmy zaproponować Ci naszą najnowszą kolekcję butów, które pozwolą Ci poczuć się wyjątkowo i stylowo, bez rezygnacji z wygody.';
-}
+
+
 
 inputValue = 'Example Text';
 title = 'shop-web';

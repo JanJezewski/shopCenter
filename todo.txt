@@ -95,3 +95,23 @@
           <a href="#heart" class = "material-icons" >shopping_cart</a>
           
           <a href="#heart" class = "material-icons" >storefront</a>
+
+
+
+           <div class="leftcolumn">
+      <div class="card">
+        <img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but_2.png" alt="Tekst alternatywny">
+        
+        
+       <p> {{displayShoe}} </p>
+      </div>
+
+      
+
+      <div class="card">
+        <img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but_2.png" alt="Tekst alternatywny">
+        
+        
+       <p> {{displayShoe}} </p>
+      </div>
+
