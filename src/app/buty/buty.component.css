@@ -2,19 +2,16 @@ div {
     display: block;
 }
   
-  /* Add a card effect for articles */
-   .card {
-    background-color: white;
-    padding: 10px;
-    margin-top: 10px;
-    }
+  
+
     
 
     /* Fake image */
     .fakeimg {
-      background-color: rgb(138, 133, 133);
-      width: 40%;
-      padding: 2px;
+      
+      width: 75%;
+      height: 300px;
+      padding: 1px;
       border-radius: 10px;
       -webkit-box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
       -moz-box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
@@ -24,10 +21,11 @@ div {
     table {
         border-collapse: collapse;
         width: 100%;
+        border: 1px solid #ddd;
       }
       
       td, th {
         padding: 4px;
         text-align: center;
-       
-      }
+        }
+        

@@ -115,3 +115,7 @@
        <p> {{displayShoe}} </p>
       </div>
 
+      <td><img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but17.png" alt="Invalid error"></td> <p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
+      <td><img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but13.png" alt="Invalid error"></td> <p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
+      <td><img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but18.png" alt="Invalid error"></td> <p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
+      <td><img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but4.png" alt="Invalid error"></td> <p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
