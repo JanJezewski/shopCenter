@@ -12,6 +12,7 @@ import { ButyComponent } from './buty/buty.component';
 import { RolinyComponent } from './roliny/roliny.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { CardComponent } from './card/card.component';
+import { ErroComponent } from './erro/erro.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { CardComponent } from './card/card.component';
   RolinyComponent,
   PaginationComponent,
   CardComponent,
+  ErroComponent,
 
   
 ],

@@ -3,6 +3,9 @@
     background-image: linear-gradient(to right, rgb(248, 197, 88) ,rgb(151, 140, 140));
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
+    -webkit-box-shadow: 3px 7px 8px 3px rgba(150,149,145,0.25);
+    -moz-box-shadow: 3px 7px 8px 3px rgba(150,149,145,0.25);
+    box-shadow: 3px 7px 8px 3px rgba(150,149,145,0.25);
   }
   
   .navbar a {
@@ -13,6 +16,7 @@
     padding: 14px 16px;
     border-radius: 15px;
     text-decoration: none;
+
   }
   
   .dropdown {
