@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, NgModule } from '@angular/core';
+import { ButyComponent } from './buty/buty.component';
 
 @Component({
   selector: 'app-root',
@@ -8,24 +9,19 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
- 
-
-
-  showOkazje() {
-throw new Error('Method not implemented.');
-}
-
 
 
 
 inputValue = 'Example Text';
 title = 'shop-web';
   config: { title: string; footer: string; date: string; };
+butyDisply: any;
 
   constructor() {
     this.config = {
       title: 'ShopWeb',
       
+
       footer: '© Strona sklepu w Angularze.',
       date: new Date().toDateString(),
     };

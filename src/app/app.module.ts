@@ -13,6 +13,9 @@ import { RolinyComponent } from './roliny/roliny.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { CardComponent } from './card/card.component';
 import { ErroComponent } from './erro/erro.component';
+import { MebleComponent } from './meble/meble.component';
+import { HoveComponent } from './hoves/hove/hove.component';
+
 
 
 @NgModule({
@@ -29,6 +32,10 @@ import { ErroComponent } from './erro/erro.component';
   PaginationComponent,
   CardComponent,
   ErroComponent,
+  MebleComponent,
+  HoveComponent,
+  
+ 
 
   
 ],

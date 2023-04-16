@@ -1,6 +1,50 @@
-<div class="card">
-<img class="fakeimg" style="height:400px;" src="assets/zdjęcia na strone/aloes.png" alt="Tekst alternatywny"> 
-        <h2><button (click)="showAloes()">Czy wiedziałeś że...</button></h2>
-        <p>{{displayAloes}}</p>
-      </div>
+
+<button (click)="showContent()">Rośliny</button>
+<div *ngIf="showComponent">
+<div class="row">
+</div>
+  
+
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    
+ 
+    <tr>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/aloes.png" alt="Invalid error" ></td><p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/cactus.png" alt="Invalid error"></td> <p>Świetne buty na każdą okazje</p><h1>Jedyne 109zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/flower.png" alt="Invalid error"></td> <p>Innowacyjne laczki</p><h1>Jedyne 399zł!!!</h1>
+      
+      
+    </tr>
+    <tr>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/lotus flower.png" alt="Invalid error"></td> <p>Buty dzięki którym zabłyśniesz w towarzystwie</p><h1>Jedyne 599zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/narciss.png" alt="Invalid error"></td> <p>Szpanerskie cichochody</p><h1>Jedyne 209zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/tulipan.png" alt="Invalid error"></td> <p>Extra kalosze do biegania</p><h1>Jedyne 99zł!!!</h1>
+      
+    </tr>
+
+    <tr>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/field poppy.png" alt="Invalid error"></td> <p>Prestiżowe trampki</p><h1>Jedyne 709zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/tulipan.png" alt="Invalid error"></td> <p>Lukus na twoją kieszeń</p><h1>Jedyne 100zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/apple blossom.png" alt="Invalid error"></td> <p>Buty codzzienne</p><h1>Jedyne 159zł!!!</h1>
+      
+    </tr>
+
+    <tr>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/Cherry Blossom.png" alt="Invalid error"></td> <p>Buty dla każdego</p><h1>Jedyne 499zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/cornflower.png" alt="Invalid error"></td> <p>Buty dla koneserów</p><h1>Jedyne 199zł!!!</h1>
+      <td><img class="fakeimg"  src="assets/zdjęcia na strone/hepatica.png" alt="Invalid error"></td> <p>Po prostu buty</p><h1>Jedyne 19zł!!!</h1>
+      
+    </tr>
+   </table>
+</div> 
+      
+      
+
+
     

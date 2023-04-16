@@ -119,3 +119,20 @@
       <td><img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but13.png" alt="Invalid error"></td> <p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
       <td><img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but18.png" alt="Invalid error"></td> <p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
       <td><img class="fakeimg" style="height:200px;" src="assets/zdjęcia na strone/but4.png" alt="Invalid error"></td> <p>Lukusowe buty do biegania</p><h1>Jedyne 199zł!!!</h1>
+
+            <div class="column">
+            <h3>Dom</h3>
+            <a href="#">Środki czystości</a>
+            <a href="#">Meble</a>
+            <a href="#">Ozdoby</a>
+          </div>
+          <div class="column">
+            <h3>AGD</h3>
+            <a href="#">Do biura</a>
+            <a href="#" >Sprzęt do grania</a>
+            <a href="#" >Domowe AGD</a> 
+          </div>
+
+              <button class="tablinks" onmouseover="openCity(event, 'London')">London</button>
+      <button class="tablinks" onmouseover="openCity(event, 'Paris')">Paris</button>
+      <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Tokyo</button>
