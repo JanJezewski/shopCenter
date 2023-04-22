@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { LogoComponent } from './logo/logo.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { OkazjeComponent } from './okazje/okazje.component';
-import { ActiveButtonComponent } from './active-button/active-button.component';
 import { HitComponent } from './hit/hit.component';
 import { PolecaneComponent } from './polecane/polecane.component';
 import { ButyComponent } from './buty/buty.component';
@@ -14,7 +13,7 @@ import { PaginationComponent } from './pagination/pagination.component';
 import { CardComponent } from './card/card.component';
 import { ErroComponent } from './erro/erro.component';
 import { MebleComponent } from './meble/meble.component';
-import { HoveComponent } from './hoves/hove/hove.component';
+
 
 
 
@@ -24,7 +23,6 @@ import { HoveComponent } from './hoves/hove/hove.component';
     LogoComponent,
   NavbarComponent,
   OkazjeComponent,
-  ActiveButtonComponent,
   HitComponent,
   PolecaneComponent,
   ButyComponent,
@@ -33,7 +31,8 @@ import { HoveComponent } from './hoves/hove/hove.component';
   CardComponent,
   ErroComponent,
   MebleComponent,
-  HoveComponent,
+
+
   
  
 

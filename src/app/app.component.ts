@@ -11,11 +11,10 @@ import { ButyComponent } from './buty/buty.component';
 export class AppComponent {
 
 
-
 inputValue = 'Example Text';
 title = 'shop-web';
   config: { title: string; footer: string; date: string; };
-butyDisply: any;
+
 
   constructor() {
     this.config = {

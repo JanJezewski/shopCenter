@@ -136,3 +136,5 @@
               <button class="tablinks" onmouseover="openCity(event, 'London')">London</button>
       <button class="tablinks" onmouseover="openCity(event, 'Paris')">Paris</button>
       <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Tokyo</button>
+
+      <button class="button" (click)="showContent()">Buty</button>

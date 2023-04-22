@@ -11,7 +11,21 @@ div {
       -moz-box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
       box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
     }
-  
+    
+    .button {
+      background-color: #ee7c12; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+  }
+
     table {
         border-collapse: collapse;
         width: 100%;
