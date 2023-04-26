@@ -138,3 +138,6 @@
       <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Tokyo</button>
 
       <button class="button" (click)="showContent()">Buty</button>
+
+
+      

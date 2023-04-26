@@ -8,7 +8,5 @@ import { Component } from '@angular/core';
 export class MebleComponent {
   showComponent = false;
 
-showContent() {
-  this.showComponent = true;
-}
+
 }
