@@ -12,6 +12,16 @@ div {
       box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
     }
     
+    .fakeimg a.active {
+    
+      color: rgb(247, 135, 8);
+    }
+    
+    .fakeimg a:hover:not(.active) {
+      background-color: #d69393;
+      border-radius: 10px;
+    }
+
     .button {
       background-color: #ee7c12; /* Green */
       border: none;
