@@ -16,7 +16,17 @@
   div {
       display: block;
   }
-  
+    .p1{
+      color: #ffffff;
+      background-color: rgb(226, 224, 224);
+      border-radius: 5px;
+      
+      border: 5px solid rgb(241, 240, 240);
+      width: 73%;
+      font-family: verdana;
+      text-shadow: 3px 3px #00000049;
+      padding-left: 220px;
+    }
     
     p {
       font-family: verdana;
@@ -88,23 +98,16 @@
           cursor: pointer;
         }
         
-        .button1 {
-          background-color: rgb(164, 250, 193) ; 
-          color: white; 
-          border: 2px solid #e7e7e7;
+        .button2 {
+          
+          border: 0px ;
         }
-        .button {
-          background-color: #4CAF50; /* Green */
-          border: none;
-          color: white;
-          padding: 15px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          cursor: pointer;
+        .button2:hover {
+          -webkit-box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+          -moz-box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+          box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
         }
+
         .row::after {
           content: "";
           display: table;
@@ -125,7 +128,11 @@
         
         .fa:hover {
             opacity: 0.7;
-        }
+            -webkit-box-shadow: 3px 3px 31px 4px rgba(0,0,0,0.41);
+            -moz-box-shadow: 3px 3px 31px 4px rgba(0,0,0,0.41);
+              box-shadow: 3px 3px 31px 4px rgba(0,0,0,0.41);
+
+          }
         
         .fa-instagram {
           color: rgb(255, 17, 0);
