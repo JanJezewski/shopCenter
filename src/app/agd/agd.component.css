@@ -1,0 +1,58 @@
+div {
+    display: block;
+}
+   .fakeimg {
+      
+      width: 75%;
+      height: 300px;
+      padding: 1px;
+      border-radius: 10px;
+      -webkit-box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
+      -moz-box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
+      box-shadow: 3px 4px 12px 3px rgba(171,169,161,1);
+    }
+    
+    .fakeimg a.active {
+    
+      color: rgb(247, 135, 8);
+    }
+    
+    .fakeimg a:hover:not(.active) {
+      background-color: #d69393;
+      border-radius: 10px;
+    }
+
+    .button {
+      background-color: #ee7c12; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+  }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      
+      td, th {
+        padding: 4px;
+        text-align: center;
+        }
+      
+        .button2 {
+          
+            border: 0px ;
+          }
+          .button2:hover {
+            -webkit-box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+          }
