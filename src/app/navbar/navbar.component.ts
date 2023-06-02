@@ -17,6 +17,8 @@ export class NavbarComponent {
   showComponent8 = false;
   showComponent9 = false;
   showComponent10 = false;
+  showComponent11 = false;
+
 
   constructor(private router: Router) { }
 
@@ -64,6 +66,12 @@ export class NavbarComponent {
     this.showComponent10 = true;
     this.refreshPage();
   }
+
+  showContent11() {
+    this.showComponent10 = true;
+    this.refreshPage();
+  }
+
 
   private refreshPage() {
     const currentUrl = this.router.url;

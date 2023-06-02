@@ -1,4 +1,8 @@
 <div class="navbar">
+  
+
+
+  
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Domowe</a>
     
@@ -6,8 +10,8 @@
       
       <a (click)="showContent3()">Meble</a>
       <a (click)="showContent7()">AGD</a>
-      
       <a (click)="showContent2()">Rośliny</a>
+      
     </div>
   </li>
 
@@ -57,16 +61,10 @@
     <app-agd></app-agd>
   </div>
 
-  <div *ngIf="showComponent8">
-    <app-ekspresy></app-ekspresy>
-    </div>
-
-  <div *ngIf="showComponent9">
-    <app-dlugopisy></app-dlugopisy>
-  </div>
-
   <div *ngIf="showComponent10">
     <app-krzesla-b></app-krzesla-b>
   </div>
+
+ 
 
   

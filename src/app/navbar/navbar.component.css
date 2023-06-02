@@ -10,19 +10,23 @@
   
   .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
     color: rgb(243, 239, 242);
     text-align: center;
     padding: 14px 16px;
     border-radius: 15px;
     text-decoration: none;
-
+    font-variant: small-caps;
+    text-transform: capitalize;
   }
   
  
   
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  
+  
+    .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(255, 166, 0);
   }
   

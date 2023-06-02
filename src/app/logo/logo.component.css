@@ -4,7 +4,7 @@ div {
 }
 
 p {
-    font-family: verdana;
+  font-family: "Audiowide", sans-serif;
     font-size: 20px;
   }
 
@@ -12,9 +12,9 @@ p {
     color: rgb(80, 76, 76);
     position: relative;
     text-shadow: 3px 3px #00000049;
-    font-family: fantasy;
+    font-family: "Audiowide", sans-serif;
     font-size: 70px;
-    padding-left: 420px;
+    padding-left: 720px;
 
   }
 
@@ -62,6 +62,7 @@ p {
     margin-top: 8px;
     margin-right: 16px;
     background: #ddd;
+    
     font-size: 17px;
     border: none;
     cursor: pointer;

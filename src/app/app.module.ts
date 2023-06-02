@@ -13,17 +13,14 @@ import { PaginationComponent } from './pagination/pagination.component';
 import { CardComponent } from './card/card.component';
 import { ErroComponent } from './erro/erro.component';
 import { MebleComponent } from './meble/meble.component';
-import { SztukaComponent } from './sztuka/sztuka.component';
 import { SkarpetyComponent } from './skarpety/skarpety.component';
 import { BluzyComponent } from './bluzy/bluzy.component';
 import { SpodnieComponent } from './spodnie/spodnie.component';
 import { AgdComponent } from './agd/agd.component';
-import { EkspresyComponent } from './ekspresy/ekspresy.component';
-import { ZakreslaczeComponent } from './zakreslacze/zakreslacze.component';
-import { DlugopisyComponent } from './dlugopisy/dlugopisy.component';
 import { KrzeslaBComponent } from './krzesla-b/krzesla-b.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 
 
@@ -42,17 +39,14 @@ import { AboutMeComponent } from './about-me/about-me.component';
   CardComponent,
   ErroComponent,
   MebleComponent,
-  SztukaComponent,
   SkarpetyComponent,
   BluzyComponent,
   SpodnieComponent,
   AgdComponent,
-  EkspresyComponent,
-  ZakreslaczeComponent,
-  DlugopisyComponent,
   KrzeslaBComponent,
   HomePageComponent,
   AboutMeComponent,
+  AboutmeComponent,
 
 
   
