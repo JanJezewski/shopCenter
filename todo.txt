@@ -149,3 +149,5 @@
       <a (click)="showContent10()">Krzesła Biurowe</a>
     
   </div>
+
+   background-image: linear-gradient(to right, rgb(88, 248, 155) ,rgb(196, 71, 154));

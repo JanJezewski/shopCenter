@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-image: linear-gradient(to right, rgb(88, 248, 155) ,rgb(196, 71, 154));
+    background-color: rgb(73, 72, 72);
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     -webkit-box-shadow: 3px 7px 8px 3px rgba(150,149,145,0.25);
