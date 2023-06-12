@@ -21,6 +21,8 @@ import { KrzeslaBComponent } from './krzesla-b/krzesla-b.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { LightNightButtonComponent } from './light-night-button/light-night-button.component';
+import { WwComponent } from './ww/ww.component';
 
 
 
@@ -47,6 +49,8 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
   HomePageComponent,
   AboutMeComponent,
   AboutmeComponent,
+  LightNightButtonComponent,
+  WwComponent,
 
 
   

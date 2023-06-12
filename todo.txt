@@ -151,3 +151,15 @@
   </div>
 
    background-image: linear-gradient(to right, rgb(88, 248, 155) ,rgb(196, 71, 154));
+    
+     #Logo{
+    color: rgb(80, 76, 76);
+    position: relative;
+    text-shadow: 3px 3px #00000049;
+    font-family: "Audiowide", sans-serif;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 70px;
+    padding-left: 720px;
+
+  }

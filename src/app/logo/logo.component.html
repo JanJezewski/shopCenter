@@ -1,18 +1,17 @@
 
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
+    </head>
 
-<h1 id = "Logo">Shopcenter</h1>
-<hr class="outset">
+<app-ww></app-ww>
 
-<div class="topnav">
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+   <li> <app-light-night-button></app-light-night-button> </li> 
+  </ul>
+</nav>
    
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </div>
+  
+
   
